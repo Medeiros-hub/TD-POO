@@ -6,9 +6,8 @@ public class PessoaFisica extends Conta {
     public PessoaFisica(Pessoa client, String cpf, String sobrenome) {
         super(client);
         setClient(client);
-
-        this.cpf = cpf;
-        this.sobrenome = sobrenome;
+        setCpf(cpf);
+        setSobrenome(sobrenome);
     }
 
 	public String getCpf() {
